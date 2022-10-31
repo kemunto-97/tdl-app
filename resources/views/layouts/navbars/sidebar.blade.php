@@ -8,7 +8,7 @@
             <li @if ($title == 'home') class="active " @endif>
                 <a href="{{ route('home') }}">
                     <i class="tim-icons icon-chart-pie-36"></i>
-                    <p>{{ __('Dashboard') }}</p>
+                    <p style="color:black;">{{ __('Dashboard') }}</p>
                 </a>
             </li>
 
@@ -17,7 +17,7 @@
             <li @if ($title == 'tasks') class="active " @endif>
                 <a href="{{ url('/tasks') }}">
                     <i class="tim-icons icon-bullet-list-67"></i>
-                    <p>Tasks</p>
+                    <p style="color:black;">Tasks</p>
                 </a>
             </li>
            
@@ -26,7 +26,7 @@
             <li @if ($title == 'journals') class="active " @endif>
                 <a href="{{ url('/journals') }}">
                     <i class="tim-icons icon-notes"></i>
-                    <p>Journals</p>
+                    <p style="color:black;">Journals</p>
                 </a>
             </li>
 
@@ -35,7 +35,7 @@
             <li @if ($title == 'goals') class="active " @endif>
                 <a href="{{ url('/goals') }}">
                     <i class="tim-icons icon-spaceship"></i>
-                    <p>Goals</p>
+                    <p style="color:black;">Goals</p>
                 </a>
             </li>
         </ul>
